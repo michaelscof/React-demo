@@ -51,11 +51,11 @@ class SearchForm extends Component {
         );
     }
 
-    changeUsersState() {
+   /* changeUsersState() {
         this.setState({
             users: this.props.users
         })
-    }
+    }*/
 
     updateModel(event) {
         this.setState({
