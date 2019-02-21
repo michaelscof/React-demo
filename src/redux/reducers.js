@@ -7,4 +7,5 @@ export default function reducers(state, action) {
             users: state.users
         }
     }
+    return state;
 }
