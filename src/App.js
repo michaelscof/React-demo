@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import SearchForm from './components/searchform';
+import Menu from './components/router';
 class App extends Component {
   render() {
     return (//jsx
@@ -22,7 +22,8 @@ class App extends Component {
       </div>*/
       <div>
         <div>React</div>
-        <SearchForm></SearchForm>
+        <Menu></Menu>
+        <router-outlet></router-outlet>
       </div>
     );
   }
